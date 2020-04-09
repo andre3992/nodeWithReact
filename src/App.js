@@ -39,7 +39,7 @@ class App extends React.Component {
       return (
         <ul>
           {clubes.map(item => (
-            <li key={item.name}>
+            <li key={item}>
               {item}
             </li>
           ))}
